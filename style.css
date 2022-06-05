@@ -9,3 +9,9 @@ nav {
 nav li {
   display: inline;
 }
+
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
