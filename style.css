@@ -1,17 +1,50 @@
-html {
-  background-color: darkgray;
-}
-
 nav {
-  background-color: gray;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid black;
+  background-color:rgb(252, 252, 252)
 }
 
 nav li {
-  display: inline;
+  display: inline-flex;
+  padding: 0px 10px;
 }
 
-img {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
+nav ul {
+  margin-right: 20px
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.introductioncontainer {
+  display: inline-flex;
+  border-bottom: 1px solid black;
+}
+
+#aboutme {
+  width: 100%;
+}
+
+.introduction {
+  font-size: 20px;
+}
+
+.introductionimg img {
+  vertical-align: middle;
+  max-width: 250px;
+  max-height: 500px;
+}
+
+.mixedmessages {
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  vertical-align: center;
+  background-image: url(/resources/images/test.jpg);
 }
