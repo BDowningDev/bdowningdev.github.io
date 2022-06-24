@@ -1,85 +1,43 @@
-*{
-  color: black;
-  z-index: -1;
-  padding: 0px;
-  margin: 0px;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', serif, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color:rgb(220, 220, 220);
+  height: 150px;
+  display: flex;
+  font-size: 1.5rem;
 }
 
 nav {
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  position: fixed;
-  height: 50px;
-  border-bottom: 1px solid black;
-}
-
-nav li {
-  display: inline-flex;
-  padding: 0px 10px;
+  width: 80%;
+  margin: auto;
 }
 
 nav ul {
-  margin-right: 20px;
-  color: white;
-  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
 }
 
-nav a {
-  margin-left: 20px;
+a {
   text-decoration: none;
   color: black;
-  z-index: 1;
 }
 
-.introductioncontainer {
-  display: inline-flex;
-  border-bottom: 1px solid black;
-  padding: 10px;
-  margin-top: 50px;
+.portfoliocontainer {
+  margin: auto;
+  width: 80%;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-
-#aboutme {
-  width: 100%;
-}
-
-.introductiontext{
-  padding: 10px;
-  font-size: 20px;
-  color: white;
-  z-index: 2;
+figure {
+  padding: 3rem;
 }
 
 
-.introductioncontainer{
-  width: 100%;
-  z-index: 1;
-
-}
-
-.introductionimg {
-  height: 250px;
-  width: 250px;
-  background-color: black;
-  margin-left: auto;
-  padding:
-}
-
-#projects h2{
-  margin: 10px;
-}
-
-.projectlinks {
-  padding: 10px;
-}
-
-.button{
-  border: 1px solid black;
-  padding: 1px;
-  border-radius: 15%;
-}
-
-footer {
-  padding: 10px;
-}
