@@ -30,18 +30,6 @@ a {
   color: black;
 }
 
-.portfoliocontainer {
-  margin: auto;
-  width: 80%;
-  padding-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-figure {
-  padding: 3rem;
-}
-
 footer {
   width: 100%;
   background-color:rgb(220, 220, 220);
